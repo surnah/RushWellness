@@ -30,7 +30,6 @@ div[class*='col-'] {
 .page-footer {
     background-color: #ccc;
     padding: 1%;
-    position: relative;
 }
 
 a:focus,
