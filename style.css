@@ -13,10 +13,6 @@ h3 {
   margin: 0px;
 }
 
-.container {
-  max-width: 970px;
-}
-
 div[class*='col-'] {
   padding: 0 30px;
 }
@@ -29,6 +25,12 @@ div[class*='col-'] {
 .nav-link {
     color: #777;
     font-size: 85%;
+}
+
+.page-footer {
+    background-color: #ccc;
+    padding: 1%;
+    position: relative;
 }
 
 a:focus,
