@@ -1,13 +1,14 @@
 body {
   margin: 0;
   font-family: 'Arial';
-  font-size: 14px;
+  font-size: em;
   background: #e5e5e5;
+  overflow: auto;
 }
 
 h3 {
   color: #004e25;
-  font-size: 24px;
+  font-size: 2rem;
   text-align: left;
   font-weight: 600;
   margin: 0px;
@@ -27,9 +28,14 @@ div[class*='col-'] {
     font-size: 85%;
 }
 
-.page-footer {
-    background-color: #ccc;
-    padding: 1%;
+#footer {
+    display: block;
+    background: #ccc;
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    margin: 10px 0 0 0;
+    position: relative;
+    bottom: 0px;
 }
 
 a:focus,
@@ -42,6 +48,7 @@ a:active {
 .jumbotron {
     background: #e5e5e5;
     padding: 6vh 0 0;
+    display: inline-block;
 }
 
 .panel {
@@ -75,7 +82,7 @@ a:active {
   color: #707070;
   padding: 8px;
   position: relative;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 800;
 }
 
@@ -179,4 +186,13 @@ a:active {
           transform: rotate(0deg);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-right {
+    display: none;
+  }
+    .jumbotron {
+        padding: 9vh 0 0 0;
+    }    
 }
