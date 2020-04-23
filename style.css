@@ -30,7 +30,7 @@ div[class*='col-'] {
 }
 
 #footer {
-    position: fixed;
+    position: relative;
     bottom: 0px;
     width: 100%;
     padding: 10px 0 10px 10px;
