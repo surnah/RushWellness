@@ -43,7 +43,7 @@ div[class*='col-'] {
     bottom: 0px;
     width: 100%;
     padding: 10px 0 10px 10px;
-    margin: 0 0 0 48px;
+    margin: 24px 0 0 48px;
     z-index: -1;
 }
 
