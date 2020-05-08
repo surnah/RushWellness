@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $('.collapse.in').prev('.panel-heading').addClass('active');
   $('#accordion, #accordion2, #accordion3')
     .on('show.bs.collapse', function(a) {
@@ -8,3 +8,4 @@ $(document).ready(function() {
       $(a.target).prev('.panel-heading').removeClass('active');
     });
 });
+
